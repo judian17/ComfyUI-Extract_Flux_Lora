@@ -1,0 +1,15 @@
+[project]
+name = "extract_flux_lora"
+description = "Extract LoRA from the original Fine-Tuned model."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["safetensors>=0.4.4", "numpy<=1.26.4", "accelerate>=0.33.0", "bitsandbytes>=0.44.0", "einops>=0.7.0", "tqdm"]
+
+[project.urls]
+Repository = "https://github.com/judian17/ComfyUI-Extract_Flux_Lora"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-Extract_Flux_Lora"
+Icon = ""
